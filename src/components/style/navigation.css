@@ -1,0 +1,54 @@
+h1{
+    color: rgb(111, 24, 24);
+}
+.navbar{
+    display: flex;
+
+    border:none;
+    border-radius: 0 0 23px 23px;
+    background-color: black;
+    padding: 10px 0 23px 23px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.nav-title{
+    color:wheat
+}
+.nav-links{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap:20px
+}
+a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+
+  .box{
+    background-color: #0056b3;  /* Same dark blue when hovered */
+    border-color: #003366;  /* Darker border when active and hovered */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.7);  /* Stronger shadow on hover */
+    cursor: pointer;
+  }
+  
+  .box-clicked{
+    cursor: pointer;
+    background-color: #5a00b3;  /* Same dark blue when hovered */
+    border-color: #e3e9ef;  /* Darker border when active and hovered */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.7);  /* Stronger shadow on hover */
+    color: white;
+    font-weight: bold;
+    transition: 0.5s ease;
+  }
+
+ 
